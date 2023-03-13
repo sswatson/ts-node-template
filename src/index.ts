@@ -1,6 +1,4 @@
 
-function helloWorld() {
-  console.log("Hi!");
-}
+import { helloWorld } from '@lib/helloWorld';
 
-helloWorld();
+console.log(helloWorld());
